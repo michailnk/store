@@ -1,7 +1,6 @@
-﻿using System;
+﻿
 namespace Store {
-  public interface IBookRepository {
-
+   public interface IBookRepository {
       Book[] GetByTitle(string titlePart);
       }
    }
