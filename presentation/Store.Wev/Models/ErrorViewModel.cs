@@ -1,6 +1,6 @@
 using System;
 
-namespace Store.Wev.Models {
+namespace Store.Web.Models {
    public class ErrorViewModel {
       public string RequestId { get; set; }
 

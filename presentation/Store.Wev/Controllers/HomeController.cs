@@ -1,13 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Store.Wev.Models;
-using System;
-using System.Collections.Generic;
+using Store.Web.Models;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Store.Wev.Controllers {
+namespace Store.Web {
    public class HomeController : Controller {
       private readonly ILogger<HomeController> _logger;
 
